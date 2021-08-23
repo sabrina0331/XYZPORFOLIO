@@ -32,8 +32,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #BCECE0;
   padding: 2em;
 }
@@ -66,7 +66,7 @@ header ul a {
   margin: 1.75em auto 0;
 }
 
-img {
+.skills img {
   border-radius: 400px;
   width: 5vh;
   height: 5vh;
@@ -104,4 +104,33 @@ img {
   position: relative;
   bottom: 50px;
   left: 85px;
+}
+
+@media only screen and (min-width: 800px) {
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .social-header {
+    padding: 2em 4em 2em 0;
+  }
+  .social-header {
+    display: block;
+  }
+  .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 7em;
+    float: right;
+  }
+  .social-header ul img {
+    width: 20px;
+  }
 }
