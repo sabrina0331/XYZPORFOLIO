@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background-color: #BCECE0;
+}
+
+.nav-container a {
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #BCECE0;
+  padding: 2em;
+}
+
+header .logo {
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header {
+  display: none;
+}
+
+.skills {
+  position: relative;
+  width: 24em;
+  height: 24em;
+  padding: 2.8em;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+}
+
+img {
+  border-radius: 400px;
+  width: 5vh;
+  height: 5vh;
+}
+
+.deg1 img {
+  position: relative;
+  top: 100px;
+}
+
+.deg2 img {
+  position: relative;
+  bottom: 100px;
+}
+
+.deg3 img {
+  position: relative;
+  top: 50px;
+  left: 85px;
+}
+
+.deg4 img {
+  position: relative;
+  top: 50px;
+  right: 85px;
+}
+
+.deg5 img {
+  position: relative;
+  bottom: 50px;
+  right: 85px;
+}
+
+.deg6 img {
+  position: relative;
+  bottom: 50px;
+  left: 85px;
+}
