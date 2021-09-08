@@ -78,7 +78,7 @@ section {
 }
 
 .projects a img {
-  border-radius: 1em;
+  /* border-radius: 1em; */
   margin-bottom: 2em;
 }
 
@@ -123,6 +123,18 @@ section {
     width: 60%;
   }
   li.project3 p {
+    margin: auto;
+  }
+  li.project4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  li.project4 .picture {
+    margin-left: auto;
+    width: 55%;
+  }
+  li.project4 p {
     margin: auto;
   }
 }
