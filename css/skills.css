@@ -62,12 +62,12 @@ header ul a {
   width: 24em;
   height: 24em;
   padding: 2.8em;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 1.75em auto 0;
 }
 
 .skills img {
-  border-radius: 400px;
+  border-radius: 10%;
   width: 5vh;
   height: 5vh;
 }

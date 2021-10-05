@@ -89,14 +89,27 @@ section {
   .projects {
     padding-top: 1em;
   }
+  li.project0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  li.project0 .picture {
+    margin-right: auto;
+    width: 54%;
+  }
+  li.project0 p {
+    margin: auto;
+  }
+
   li.project1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   li.project1 .picture {
-    margin-right: auto;
-    width: 50%;
+    margin-left: auto;
+    width: 45%;
   }
   li.project1 p {
     margin: auto;
@@ -107,8 +120,8 @@ section {
     display: flex;
   }
   li.project2 .picture {
-    margin-left: auto;
-    width: 55%;
+    margin-right: auto;
+    width: 65%;
   }
   li.project2 p {
     margin: auto;
@@ -205,7 +218,7 @@ section {
 }
 
 .footer-background {
-  height: 50%;
+  height: 80%;
 }
 
 .footer-img {
