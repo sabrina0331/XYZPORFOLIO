@@ -68,13 +68,34 @@ header ul a {
   width: 84.6%;
 }
 
+
 section {
   padding: 1em 1em 2em 2em;
   text-align: center;
+ 
 }
 
 .projects {
   background: white;
+}
+
+.projects img:hover{
+  z-index: 100;
+  -webkit-animation: scale 0.4s ease;
+  animation: scale 0.4s linear;
+  animation-fill-mode: forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes scale{
+  0%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100%{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
 
 .projects a img {
