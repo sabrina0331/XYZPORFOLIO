@@ -1,0 +1,247 @@
+
+  h1,h2, h3,p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    /* font-style: inherit; */
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+  }
+  .categories {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+     /* font-style: inherit; */
+    font-family: 'Zen Kurenaido', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .nav-container {
+    background-color: #A1AFC8 40%;
+    background-color: rgb(161,175,200); opacity:0.74;
+  }
+  
+  .nav-container a {
+    color: black;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #A1AFC8;
+    padding: 2em;
+  }
+  
+  header .logo {
+    font-weight: bold;
+  }
+  
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  header ul a {
+    display: block;
+    padding: 0 1em;
+  }
+  
+  .social-header {
+    display: none;
+  }
+  
+  .hero {
+    background: white;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 84.6%;
+  }
+  
+  
+  section {
+    padding: 1em 1em 2em 2em;
+    text-align: center;
+   
+  }
+  
+  .projects {
+    background: white;
+  }
+  
+  .projects img:hover{
+    z-index: 100;
+    -webkit-animation: scale 0.4s ease;
+    animation: scale 0.4s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes scale{
+    0%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    100%{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .hero-design {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .nav-container {
+      display: -ms-grid;
+      display: grid;
+      /* -ms-grid-columns: 66% auto;
+          grid-template-columns: 66% auto; */
+      background: unset;
+    }
+    .social-header {
+      padding: 2em 4em 2em 0;
+    }
+    section {
+      padding: 2em;
+    }
+    .social-header {
+      display: block;
+    }
+    .social-header ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 7em;
+      float: right;
+    }
+    .social-header ul img {
+      width: 20px;
+    }
+    .hero {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 78% auto;
+          grid-template-columns: 78% auto;
+      background: unset;
+    }
+    .hero .subtitle {
+      margin: auto;
+      text-align: center;
+      font-size: 2.5em;
+      line-height: 1.2em;
+      font-family: 'Zen Kurenaido', sans-serif;
+    }
+    .hero {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 78% auto;
+          grid-template-columns: 78% auto;
+      background: unset;
+      background-color: white;
+    }
+    .hero-design {
+      display: unset;
+      margin-left: -75%;
+      margin-top: 15%;
+      width: 100%;
+    }
+  }
+  
+  .footer-background {
+    height: 80%;
+  }
+  
+  .footer-img {
+    display: unset;
+    margin-top: -15%;
+    margin-left: 70%;
+    width: 25%;
+  }
+
+  .footer {
+      margin-top: 1rem;
+  }
+
+  /* .prototypeFont {
+    font-family: 'Zen Kurenaido', sans-serif;
+  } */
+/* 
+  //Project Overview*/
+ 
+
+.overview-header {
+    width: 50vw;
+    height: 100%;
+    line-height: 50px; 
+    display: inline-block;
+}
+.overview-header img, h1 {
+  display: inline-block;
+  vertical-align: 1em;
+}
+.overview-header img {
+  width: 25px;
+}
+
+.project-detail {
+  padding: 3.5em 10%;
+}
+/* .project-content h3 {
+  font-weight: bold;
+} */
+
+.design-process p {
+  text-align: center;
+}
+
+
+.title {
+  display: inline-block;
+}
+.title img, h1 {
+  display: inline-block;
+  vertical-align: 1em;
+}
+.title img {
+  width: 25px;
+}
+
+header{
+  position: fixed;
+  width: 95%;
+  z-index: 10;
+  background-color:white;
+}
+video {
+  width: 100%;
+  height: auto;
+}
