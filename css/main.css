@@ -183,6 +183,7 @@ section {
   li.project4 .picture {
     margin-left: auto;
     width: 55%;
+    pointer-events: none;
   }
   li.project4 p {
     margin: auto;
