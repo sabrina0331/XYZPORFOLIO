@@ -1,39 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?Roboto:wght@700&Roboto:wght@300&Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?Roboto:wght@700&Roboto:wght@300&Roboto:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
+    color: #590F23;
+    font-family: 'Open Sans', sans-serif;
     padding: 2%;
 }
 .introduction {
     border-bottom: 3px solid #F26D85;
 }
 #title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 #intro-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 #intro-content {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     line-height: 1.5;
 }
 .role{
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 600;
 }
 .role-content {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 .role-title {
     display: inline-block;
     text-align: left;
     margin-top: 10px;
-    margin-right: 120px;
+    margin-right: 50px;
 }
 .prototyping img {
     max-width: 100%;
 }
+h2 {
+    font-size: 1.8rem;
+}
+.problem {
+    display: grid;
+    grid-template-columns: 20% calc(80% - 4rem);
+    grid-column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.goal {
+    display: grid;
+    grid-template-columns: 20% calc(80% - 4rem);
+    grid-column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.goals {
+    display: flex;
+    flex: 1 1 auto;
+    list-style: none;
+    /* justify-items: stretch; */
+}
+.goals img {
+    display: block;
+    float: left;
+    margin-right: 1rem;
+}
+.goals text {
+    display: block;
+}
+.goals li {
+    width: 100%;
+    margin: 0 0.5rem;
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1.5rem;
+}
+.design-process {
+    display: grid;
+    grid-template-columns: 20% calc(80% - 4rem);
+    grid-column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.gallery {
+    margin-left: 100px;
+}
+.gallery img {
+    width: 30%;
+}
+.design-persona img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+.design-journey img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.design-competitior img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.competitive-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+.compet-detail {
+    border: 2px solid rgb(206, 195, 224);
+}
+.compet-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-style: none;
+}
+.text-padding {
+    padding: 3rem;
+}
+
+.text-padding h4 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    text-align: center;
+}
+ul.compet-list {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.3rem;
+}
+ul.compet-list li:before {
+    font-size: 1rem;
+    font-family:  Arial, Helvetica, sans-serif;
+    content: "";
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(206, 195, 224);
+    border-radius: 0.33rem;
+    position: absolute;
+    left: 0;
+    transform: translate(0%,0.5rem);
+} 
