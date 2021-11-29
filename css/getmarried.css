@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?Roboto:wght@700&Roboto:wght@300&Roboto:wght@100&display=swap');
+body {
+    padding: 2%;
+}
+.introduction {
+    border-bottom: 3px solid #F26D85;
+}
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+#intro-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+#intro-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.role{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.role-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+.role-title {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.prototyping img {
+    max-width: 100%;
+}

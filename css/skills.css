@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 body {
   height: 100vh;
   margin: 0;
@@ -59,18 +59,18 @@ header ul a {
 
 .skills {
   position: relative;
-  width: 35em;
-  height: 35em;
+  width: 24em;
+  height: 24em;
   padding: 2.8em;
-  border-radius: 10%;
-  margin: 1em auto 0;
-
-}
-.skills h3 {
-  font-size: 2.5rem;
-  font-family: 'Zen Kurenaido', sans-serif;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
 }
 
+.skills img {
+  border-radius: 400px;
+  width: 5vh;
+  height: 5vh;
+}
 
 .deg1 img {
   position: relative;

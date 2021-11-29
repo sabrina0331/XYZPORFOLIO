@@ -1,20 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Amatic SC', cursive;
-} */
-
-.logo {
-  font-size: 1.5rem;
-  font-family: 'Zen Kurenaido', sans-serif;
-  
-}
-.categories {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  font-family: 'Zen Kurenaido', sans-serif;
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Poppins',sans-serif;
 }
 
 ul {
@@ -80,42 +68,17 @@ header ul a {
   width: 84.6%;
 }
 
-
 section {
   padding: 1em 1em 2em 2em;
   text-align: center;
- 
 }
 
 .projects {
   background: white;
 }
 
-.projects p{
-  font-family: 'Open Sans', sans-serif;
-}
-
-.projects img:hover{
-  z-index: 100;
-  -webkit-animation: scale 0.4s ease;
-  animation: scale 0.4s linear;
-  animation-fill-mode: forwards;
-  transform-origin: 50% 50%;
-}
-
-@keyframes scale{
-  0%{
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100%{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-}
-
 .projects a img {
-  /* border-radius: 1em; */
+  border-radius: 1em;
   margin-bottom: 2em;
 }
 
@@ -126,27 +89,14 @@ section {
   .projects {
     padding-top: 1em;
   }
-  li.project0 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  li.project0 .picture {
-    margin-right: auto;
-    width: 54%;
-  }
-  li.project0 p {
-    margin: auto;
-  }
-
   li.project1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   li.project1 .picture {
-    margin-left: auto;
-    width: 45%;
+    margin-right: auto;
+    width: 50%;
   }
   li.project1 p {
     margin: auto;
@@ -157,8 +107,8 @@ section {
     display: flex;
   }
   li.project2 .picture {
-    margin-right: auto;
-    width: 65%;
+    margin-left: auto;
+    width: 55%;
   }
   li.project2 p {
     margin: auto;
@@ -173,21 +123,6 @@ section {
     width: 60%;
   }
   li.project3 p {
-    margin: auto;
-  }
-  li.project4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    pointer-events: none;
-  }
-  li.project4 .picture {
-    margin-left: auto;
-    width: 55%;
-    pointer-events: none;
-   
-  }
-  li.project4 p {
     margin: auto;
   }
 }
@@ -240,7 +175,6 @@ section {
     text-align: center;
     font-size: 2.5em;
     line-height: 1.2em;
-    font-family: 'Zen Kurenaido', sans-serif;
   }
   .hero {
     display: -ms-grid;
@@ -259,7 +193,7 @@ section {
 }
 
 .footer-background {
-  height: 80%;
+  height: 50%;
 }
 
 .footer-img {
