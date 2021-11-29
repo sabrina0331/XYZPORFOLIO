@@ -146,3 +146,12 @@ ul.compet-list li:before {
     left: 0;
     transform: translate(0%,0.5rem);
 } 
+.ia div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+}
+.ia img {
+    width: 50%;
+    margin-left: 3rem;
+}
