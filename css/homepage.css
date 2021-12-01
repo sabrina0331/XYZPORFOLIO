@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    /* margin-block-start: 1em; */
+    padding-inline-start: 10px;
+}
+header ul a {
+    display: block;
+    padding: 0.5em ;
+    margin-left: 10px;
+}
+.logo img{
+    width: 40%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-header {
+    padding: 2em;
+}
+
+.social-header ul a {
+    display: block;
+    padding: 0 1em;
+}
+.social-header ul {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+}
+.social-header img {
+    width: 20px;
+}
+.categories{
+    text-decoration: none;
+}
+
+.categories a:hover{
+    background-color: #73facb;
+}
+
+.main-context p{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+#hello {
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
+}
+
+#intro p{
+    font-size: 1.5rem;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+#people {
+    background-image: linear-gradient(to bottom right, #FA739C,#FFE794 );
+}
