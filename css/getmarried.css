@@ -5,6 +5,65 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 2%;
 }
+/* Header */
+.nav-container {
+    background-color:rgb(161,175,200); opacity:0.74;
+  }
+  
+  .nav-container a {
+    color: black;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: rgb(161,175,200); opacity:0.74;
+    padding: 2em;
+  }
+  header{
+    position: fixed;
+    width: 95%;
+    z-index: 10;
+    background-color:white;
+  }
+  header .logo {
+    font-weight: bold;
+  }
+  
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  header ul a {
+    display: block;
+    padding: 0 1em;
+  }
+  
+  .social-header {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+/* Main Content */
 .introduction {
     border-bottom: 3px solid #F26D85;
 }
@@ -154,4 +213,43 @@ ul.compet-list li:before {
 .ia img {
     width: 50%;
     margin-left: 3rem;
+}
+.userflow img {
+    width: 80%;
+    margin-left: 80px;
+}
+
+.wireframe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+.wireframe-detail {
+    margin-top:10px;
+    margin-left: 50px;
+    width:80%;
+    border: 2px solid rgb(206, 195, 224);
+}
+.wireframe-detail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-style: none;
+}
+.wireframe-padding {
+    padding: 3rem;
+}
+
+.wireframe-padding p {
+    text-align: left;
+}
+
+.moodboard img {
+    width: 100%;
+    margin: auto;
+    border: 2px solid  rgb(206, 195, 224);
+}
+.mockups img {
+    width: 100%;
+    margin: auto;
 }
