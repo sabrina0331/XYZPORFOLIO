@@ -2,18 +2,18 @@
 
 .nav-container {
     display: grid;
-    grid-template-columns: 66% auto;
+    grid-template-columns: 76% auto; 
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
     padding: 2em;
 }
 header ul{
     display: flex;
     list-style-type: none;
-    /* margin-block-start: 1em; */
     padding-inline-start: 10px;
 }
 header ul a {
@@ -23,7 +23,8 @@ header ul a {
 }
 .logo img{
     width: 40%;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    margin-left: 10rem;
 }
 
 a {
@@ -49,8 +50,9 @@ a {
 .social-header img {
     width: 20px;
 }
-.categories{
+nav{
     text-decoration: none;
+
 }
 
 .categories a:hover{
@@ -78,4 +80,60 @@ a {
 }
 #people {
     background-image: linear-gradient(to bottom right, #FA739C,#FFE794 );
+}
+
+.project-detail {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-detail img {
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+}
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: 2rem;
+    background-color: #5C5959;
+    height: 50px;
+    color: white;
+    border: none;
+    text-decoration: underline;
+}
+.btn:hover {
+    background-color: #73facb;
+    color: black;
+}
+.text-padding .btn{
+    margin-left: 16rem;
+    height:50px;
+    width:60%;
+    background-color: #5C5959;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 66% auto;
+    justify-content: space-around;
+    padding: 3em;
+}
+.footer p {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+}
+.contact p:hover {
+    background-color: #73facb;
+    color: white;
+}
+#arrow p{
+    font-size: 20px;
+}
+#arrow img {
+    width: 50px;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
