@@ -64,6 +64,23 @@ nav{
     text-align: center;
     font-size: 3rem;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* box-shadow: #5C5959; */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 #hello {
     /* background-color: red; */
     background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
