@@ -1,73 +1,4 @@
-
-  /* h1,h2, h3,p {
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-family: 'Zen Kurenaido', sans-serif;
-    
-  }
-  .categories {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    font-family: 'Zen Kurenaido', sans-serif;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  .nav-container {
-    background-color: rgb(161,175,200); opacity:0.74;
-  }
-  
-  .nav-container a {
-    color: black;
-  }
-  
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background-color: #A1AFC8;
-    padding: 2em;
-  }
-  
-  header .logo {
-    font-weight: bold;
-  }
-  
-  header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  header ul a {
-    display: block;
-    padding: 0 1em;
-  }
-  
-  .social-header {
-    display: none;
-  }
-   */
-
-   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
    body {
      font-family: 'Open Sans', sans-serif;
      padding: 1%;
@@ -130,6 +61,22 @@
     background-color:  #73facb;
   }
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* box-shadow: #5C5959; */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 /* main content */
   .hero {
     background: white;
