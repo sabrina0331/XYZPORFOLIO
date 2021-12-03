@@ -16,7 +16,7 @@ body {
     color: black;
 }
   
-  header {
+header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -24,27 +24,27 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 1em;
-  }
-  header{
+}
+header{
     position: fixed;
     width: 95%;
     z-index: 10;
     background-color:white;
-  }
-  header .logo {
+}
+header .logo {
     font-weight: bold;
-  }
+}
   
-  header ul {
+header ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
+}
   
-  header ul a {
+header ul a {
     display: block;
     padding: 0 1em;
-  }
+}
   
   .social-header {
     display: none;

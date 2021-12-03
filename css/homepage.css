@@ -9,7 +9,6 @@ html {
 
 header {
     display: flex;
-    /* justify-content: space-between; */
     justify-content: flex-end;
     padding: 2em;
 }
@@ -25,7 +24,6 @@ header ul a {
 }
 .logo img{
     width: 40%;
-    /* background-attachment: fixed; */
     margin-left: 10rem;
 }
 
@@ -60,7 +58,7 @@ nav{
 .categories a:hover{
     background-color: #73facb;
 }
-
+/* main context */
 .main-context p{
     font-family: Verdana, sans-serif;
     text-align: center;
@@ -98,28 +96,43 @@ nav{
 #people {
     background-image: linear-gradient(to bottom right, #FA739C,#FFE794 );
 }
-
-.project-detail {
-    /* display: block; */
-    margin-left: auto;
-    margin-right: auto;
+#arrow p{
+    font-size: 20px;
 }
-.project-detail img {
-    margin-top: 80px;
+#arrow img {
+    width: 50px;    
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%; 
 }
+
+.projects {
+    margin-top: 3rem;
+    display: grid;
+}
+.project-detail img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.project-detail {
+    margin-top: 2em;
+}
+.text-padding {
+    padding: 3rem;
+}
+
 .btn{
     display: block;
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right:auto;
     background-color: #5C5959;
     height: 50px;
     color: white;
     border: none;
     text-decoration: underline;
+    z-index: 10;
 }
 .btn:hover {
     background-color: #73facb;
@@ -144,15 +157,6 @@ nav{
 .contact p:hover {
     background-color: #73facb;
     color: white;
-}
-#arrow p{
-    font-size: 20px;
-}
-#arrow img {
-    width: 50px;    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #myBtn {
