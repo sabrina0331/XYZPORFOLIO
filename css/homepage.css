@@ -1,91 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 html {
     scroll-behavior: smooth;
-  }
+}
+/* header */
 .nav-container {
     display: grid;
-    grid-template-columns: 50% auto; 
+    grid-template-columns: 60% auto; 
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
     padding: 2em;
-   
 }
+
 header ul{
     display: flex;
     list-style-type: none;
-    padding-inline-start: 10px;
+    padding-inline-start: 50px;
 }
 header ul a {
     display: block;
-    padding: 0.5em ;
+    padding: 1.3em ;
     margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    inline-size: 84px;
 }
 
 .logo img{
-    width: 60%;
     width: 50%;
     margin-left: 2rem;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.categories a:hover{
+    background-color: #73facb;
 }
 
 .social-header {
     padding: 2em;
 }
-
 .social-header ul a {
-    display: block;
     padding: 0 1em;
+}
+.social-header img {
+    width: 20px;
 }
 .social-header ul {
     float: right;
     display: flex;
     list-style-type: none;
     margin-block-start: 2em;
-    padding-inline-start: 19px;
-    width: 40%;
-}
-.social-header img {
-    width: 20px;
-}
-nav{
-    text-decoration: none;
+    width: 50%;
 }
 
-.categories a:hover{
-    background-color: #73facb;
-}
 /* main context */
 .main-context p{
     font-family: Verdana, sans-serif;
     text-align: center;
     font-size: 3rem;
 }
-
+/* resume-dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 120px;
+    
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#hello {
-    background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
-}
+
+/* main-content-context */
 
 #intro p{
     font-size: 1.5rem;
@@ -99,31 +89,33 @@ nav{
 #people {
     background-image: linear-gradient(to bottom right, #FA739C,#FFE794 );
 }
+#hello {
+    background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
+}
+
 #arrow p{
     font-size: 20px;
 }
+
 #arrow img {
     width: 50px;    
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* projects */
 .projects {
     margin-top: 3rem;
-    display: grid;
 }
+
 .project-detail img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
 }
 .project-detail {
     margin-top: 2em;
-}
-.text-padding {
-    padding: 3rem;
 }
 
 .btn{
@@ -131,38 +123,36 @@ nav{
     margin-left: auto;
     margin-right:auto;
     background-color: #5C5959;
-    height: 50px;
     color: white;
     border: none;
-    text-decoration: underline;
-    z-index: 10;
+    text-decoration: underline; 
     cursor: pointer; 
+    font-size: 1em;
+    padding: 1em;
 }
 .btn:hover {
     background-color: #73facb;
     color: black;
 }
-.text-padding .btn{
-    margin-left: 16rem;
-    height:50px;
-    width:60%;
-    background-color: #5C5959;
-}
+
+/* footer */
 .footer {
     display: flex;
-    grid-template-columns: 80% auto;
     justify-content: space-between;
     padding: 3em;
 }
 .footer p {
-    font-size: 18px;
     font-family: Verdana, sans-serif;
+}
+.contact a {
+    color: black;
+    text-decoration: none;
 }
 .contact p:hover {
     background-color: #73facb;
-    color: white;
 }
 
+/* scroll to up */
 #myBtn {
     font-size: 18px;
     font-family: Verdana, sans-serif;
