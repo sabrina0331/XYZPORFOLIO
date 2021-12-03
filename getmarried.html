@@ -18,10 +18,10 @@
                     <li><a href="index.html"><strong>My Projects</strong></a></li>
                     <li><a href="about.html"><strong>Who Am I?</strong></a></li>
                     <div class="dropdown">
-                        <span><a href="/">My Resume</span></a>
+                        <span><a href="index.html">My Resume</span></a>
                         <div class="dropdown-content">
                             <a href="https://docs.google.com/document/d/1zWahyIBO9JA_D4BKlgfIiZfJDkA0WR0FdhoaKKi-N2w/edit?usp=sharing"><p>View Online</p></a>
-                            <a href="XinyaZhao-Resume.pdf" download><p>Downlaod</p></a>
+                            <a href="XinyaZhao-Resume.pdf" download><p>Download</p></a>
                         </div>
                     </div>
                 </ul>
@@ -245,5 +245,38 @@
             <h3>Thank you for your time watching my case study :) This is my very first official Case Study after I got my Google UX Design Certificate. I followed every steps of Design Thinking which are Empathize->Define->Ideate->Wireframe->Prototype->Testing. From this case study I learnt UX Design is not just about Visual Design, most importantly is how to put users data into your design to make users comfortable when using your app. Next time I will try to collect quantitative data first and then sort it into qualitative data. Also, I will put more effort into Accessibility such as Web Content Accessibility Guidelines (WCAG) to reach more people's needs. </h3>
         </div>
     </div>
+    <div class="footer">
+        <div class="location">
+            <p>Seattle, WA</p>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top
+            <!-- <span class="material-icons">keyboard_double_arrow_up</span> -->
+            </button>
+        <div class="contact">
+            <a href = "mailto: sabrina20520@gmail.com"><p>Email ME</p></a>
+        </div>
+    </div>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+
 </body>
 </html>

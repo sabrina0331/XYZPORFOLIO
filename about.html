@@ -6,26 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Who is XYZ?</title>
     <link rel="stylesheet" href="css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
-     <div class="nav-container">
+    <div class="nav-container">
         <header>
             <a href="index.html" class="logo">Xinya 
                Zhao</a>
             <nav class="categories">
                 <ul>
                     <li><a href="index.html"><strong>My Projects</strong></a></li>
-                    <li><a href="/"><strong>Who Am I?</strong></a></li>
+                    <li><a href="about.html"><strong>Who Am I?</strong></a></li>
                     <div class="dropdown">
-                        <span><a href="/">My Resume</span></a>
+                        <span><a href="index.html">My Resume</a></span>
                         <div class="dropdown-content">
                             <a href="https://docs.google.com/document/d/1zWahyIBO9JA_D4BKlgfIiZfJDkA0WR0FdhoaKKi-N2w/edit?usp=sharing"><p>View Online</p></a>
-                            <a href="XinyaZhao-Resume.pdf" download><p>Downlaod</p></a>
+                            <a href="XinyaZhao-Resume.pdf" download><p>Download</p></a>
                         </div>
                     </div>
                 </ul>
             </nav>
         </header>
     </div>
+    <div class="main-context">
+        <div class="intro">
+            <img src="images/myphoto.jpg" alt="my photo">
+            <p>Hi, Again! I am Xin Ya Zhao with a cool initial "XYZ"  <span class="material-icons"> sentiment_satisfied_alt </span>
+            </p>
+            <p>How am I getting into UX Design? It's a long story. Please fasten your seatbelt, let's fly through it <span class="material-icons">flight_takeoff</span>
+            </p>
+            <div class="career">
+                <div class="year">
+                    <div class="career-2010">
+                        <p>Departure:    2010</p>
+                    </div>
+                    <div class="career-2021">
+                        <p>Destination: 2021</p>
+                    </div>
+                </div>
+                <div class="career-content">
+                    <p><span class="material-icons">flight_land</span>
+                       In 2010, I initially put my foot into the real world(working). I was a Market Content Editor. I helped my clients to tell their company stories. I am a great storyteller.
+                    </p>
+                    <p><span class="material-icons">flight_land</span>
+                       2011-2014, I was a Category Manager in three different B2C/B2B companies. I managed vendors and picked what customers will buy. I am a Great Product Analyst and Communicator.
+                    </p>
+                    <p><span class="material-icons">flight_land</span>
+                       In 2014, I moved to the US. I did part-time jobs. I travelled while I was trying to find my passion.
+                    </p>
+                    <p><span class="material-icons">flight_land</span>
+                      In 2016, I was a bilingual Customer Representative at Booking.com. I helped customers to solve their problems. I am a Great Problem Solver. 
+                    </p>
+                    <p><span class="material-icons">flight_land</span>
+                        In 2018, I was a Full-Stack development student at Coding Dojo. I am Good at HTML & CSS BUT founding out that I spent most of the coding time on designing my project pages. I didn't want to sit the whole day only facing my laptop, I wanted to talk to people to design a people-centred product. So, I got the Google UX Design Certificate and read UX related books, I wanted to be a UX Designer. I am Determined.
+                    </p>
+                    <p><span class="material-icons">flight_land</span>
+                        In 2021, I’m a Self-taught UX Designer. I’m ready to work as a professional UX Designer. I am a Fast Learner.
+                    </p>
+                </div> 
+                
+            </div>
+        </div>
+        <div class="hobbies">
+            <h3>...When I am free</h3>
+            <p> I love to go hike, travel, water coloring, make earrings, read, cook, bird watching and hang out with my friends. I'm a huge animal lover and advocate sustainability. My biggest dream is to see the Great Wildebeest Migration in Serengeti (Tanzania).</p>
+        </div>
+        <div class="three-words">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="location">
+            <p>Seattle, WA</p>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top
+            <!-- <span class="material-icons">keyboard_double_arrow_up</span> -->
+            </button>
+        <div class="contact">
+            <a href = "mailto: sabrina20520@gmail.com"><p>Email ME</p></a>
+        </div>
+    </div>
+    <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+        
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+        
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+        
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+            </script>
 </body>
 </html>

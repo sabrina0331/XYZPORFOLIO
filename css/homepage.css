@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-
+html {
+    scroll-behavior: smooth;
+  }
 .nav-container {
     display: grid;
     grid-template-columns: 76% auto; 
@@ -75,14 +77,12 @@ nav{
     position: absolute;
     background-color: white;
     min-width: 160px;
-    /* box-shadow: #5C5959; */
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 #hello {
-    /* background-color: red; */
     background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
 }
 
@@ -132,9 +132,9 @@ nav{
     background-color: #5C5959;
 }
 .footer {
-    display: grid;
-    grid-template-columns: 66% auto;
-    justify-content: space-around;
+    display: flex;
+    grid-template-columns: 80% auto;
+    justify-content: space-between;
     padding: 3em;
 }
 .footer p {
@@ -153,4 +153,12 @@ nav{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#myBtn {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    cursor: pointer; 
+    background-color: #73FACB;
+    border: none;
 }
