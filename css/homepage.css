@@ -4,13 +4,14 @@ html {
   }
 .nav-container {
     display: grid;
-    grid-template-columns: 76% auto; 
+    grid-template-columns: 50% auto; 
 }
 
 header {
     display: flex;
     justify-content: flex-end;
     padding: 2em;
+   
 }
 header ul{
     display: flex;
@@ -22,9 +23,11 @@ header ul a {
     padding: 0.5em ;
     margin-left: 10px;
 }
+
 .logo img{
-    width: 40%;
-    margin-left: 10rem;
+    width: 60%;
+    width: 50%;
+    margin-left: 2rem;
 }
 
 a {
@@ -44,15 +47,15 @@ a {
     float: right;
     display: flex;
     list-style-type: none;
-    margin-block-start: 1em;
-    padding-inline-start: 40px;
+    margin-block-start: 2em;
+    padding-inline-start: 19px;
+    width: 40%;
 }
 .social-header img {
     width: 20px;
 }
 nav{
     text-decoration: none;
-
 }
 
 .categories a:hover{
@@ -133,6 +136,7 @@ nav{
     border: none;
     text-decoration: underline;
     z-index: 10;
+    cursor: pointer; 
 }
 .btn:hover {
     background-color: #73facb;
