@@ -79,6 +79,10 @@ img {
     margin-right: auto;
 }
 
+.design-process h2 {
+    text-align: center;
+}
+
 .problems {
     width: 40%;
     display: block;
