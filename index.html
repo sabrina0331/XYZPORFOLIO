@@ -24,7 +24,7 @@
                         <a href="about.html">Who Am I?</a>
                     </li>
                     <div class="dropdown">
-                        <span><a href="index.html">My Resume</span></a>
+                        <span><a href="index.html">My Resume</a></span>
                         <div class="dropdown-content">
                             <a href="https://docs.google.com/document/d/1zWahyIBO9JA_D4BKlgfIiZfJDkA0WR0FdhoaKKi-N2w/edit?usp=sharing"><p>View Online</p></a>
                             <a href="XinyaZhao-Resume.pdf" download><p>Download</p></a>
@@ -56,63 +56,50 @@
     <div class="main-context">
         <p>Hi there! I am Xinya! </p>
         <div id="intro">
-            <p style="font-size: 20px;">A self-taught UX/UI designer. I listen, observe users' need to create user-centered products.</p>
-        </div>
-        <div id="arrow">
-            <p>Check out my projects here</p>
-            <img src="images/4829857_arrow_down_download_save_icon.png" alt="arrow">
+            <p style="font-size: 20px;">A self-taught UX/UI designer. I <span style="color:#00DCA7;">listen</span>, <span style="color:#00DCA7;">observe</span> users' need to create <span style="color:#00DCA7;">user-centered</span> apps and websites.</p>
         </div>
     </div>
     <div class="projects">
-        <div class="project-detail">
-            <a href="wastefree.html"><img src="images/project-recycle/header.png" alt="recyclable website">
-            <button class="btn">View Project</button>   </a>
+        <div class="header-detail">
+            <img src="images/project-recycle/recycle-header.png" alt="" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <a href="wastefree.html"> <p><h3>WasteFree</h3> an app that helps people to recycle better</p></a>
+                </div>
+            </div>
         </div>
-        <div class="project-detail">
-            <a href="getmarried.html"><img src="images/Weddingapp/weddingheader.png" alt="getmarried website">
-            <button class="btn">View Project</button></a>
+        <div class="header-detail-getmarried">
+        <img src="images/Weddingapp/getmarried-header.png" alt="" class="image">
+            <div class="overlay-getmarried">
+                <div class="text-getmarried">
+                    <a href="getmarried.html"><p><h3>Getmarried</h3> an app that helps people to buy traditional wedding dress online</p></a>
+                </div>
+            </div>
+        </div> 
+        <div class="header-detail-eatathome">
+            <img src="images/eatathome-header.png" alt="" class="image">
+            <div class="overlay-eatathome">
+                <div class="text-eatathome">
+                    <a href="Eatathome.html"><p><h3>EatatHome</h3> an app that helps travellers to book authentic meals cooked by local people</p>
+                </div>
+            </div>
         </div>
-        <div class="project-detail">
-            <a href="Eatathome.html"><img src="images/eatathome.jpg" alt="eatathome website">
-            <button class="btn">View Project</button>   </a>
-        </div>
-        <div class="project-detail">
-            <img src="images/Medengagement.png" alt="coming soon website"> 
+        <div class="header-detail-medengagement">
+            <img src="images/med-header.png" alt="" class="image">
+            <div class="overlay-medengagement">
+                <div class="text-medengagement">
+                    <h3>Coming Soon..</h3>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
         <div class="location">
             <p>Seattle, WA</p>
         </div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top
-            <!-- <span class="material-icons">keyboard_double_arrow_up</span> -->
-            </button>
         <div class="contact">
             <a href = "mailto: sabrina20520@gmail.com"><p>Email ME</p></a>
         </div>
     </div>
-
-    <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    }
-    </script>
-
 </body>
 </html>
