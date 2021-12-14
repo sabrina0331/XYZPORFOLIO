@@ -105,6 +105,7 @@ header ul a {
     display: block;
     width: 100%;
     height: auto;
+    box-shadow:  3px 3px 3px rgb(214, 225, 222);
 }
 .overlay {
     position: absolute;
@@ -184,7 +185,7 @@ header ul a {
     position: relative;
     width: 100%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+
 }
 .overlay-eatathome {
     position: absolute;
@@ -233,7 +234,7 @@ header ul a {
     position: relative;
     width: 100%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+ 
 }
 .overlay-medengagement {
     position: absolute;
@@ -261,7 +262,7 @@ header ul a {
     left:0;
     right: 0;
     text-align: center;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 .text-medengagement p{
