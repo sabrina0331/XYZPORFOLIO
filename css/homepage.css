@@ -89,9 +89,9 @@ header ul a {
 #people {
     background-image: linear-gradient(to bottom right, #FA739C,#FFE794 );
 }
-#hello {
-    background-image: linear-gradient(to bottom right, #73FACB,#94DFFF );
-}
+/* #hello {
+    background-color: #FFE58A;
+} */
 
 #arrow p{
     font-size: 20px;
@@ -157,6 +157,6 @@ header ul a {
     font-size: 18px;
     font-family: Verdana, sans-serif;
     cursor: pointer; 
-    background-color: #73FACB;
+    background-color: #73facb;
     border: none;
 }
