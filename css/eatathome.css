@@ -78,10 +78,30 @@ img {
 .role-content {
   font-size: 1rem;
 }
-/* .review-image{
-  border: 3px solid #FB9A96;
+/* .prolem-goal{
+  display: block;
+  width: 100%;
 } */
-
+.problem {
+  display: inline-block;
+  width: 40%; 
+  vertical-align: top;
+  margin-left: 5rem;
+}
+.goal {
+  display: inline-block;
+  width: 40%; 
+  vertical-align: top;
+  margin-left: 5rem;
+}
+.design-process-img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
 
 /* main-context */ 
 .title img, h1 {
@@ -100,6 +120,7 @@ video {
   margin: auto;
   margin-bottom: 2em;
 }
+
 /* footer */
 .footer {
   display: flex;
