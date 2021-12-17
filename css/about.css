@@ -156,7 +156,7 @@ a {
 }
 .footer p {
   color: black;
-  font-size: 18px;
+  font-size: 15px;
   font-family: Verdana, sans-serif;
 }
 .contact p:hover {
@@ -165,7 +165,7 @@ a {
 
 /* scroll to top */
 #myBtn {
-  font-size: 18px;
+  font-size: 15px;
   font-family: Verdana, sans-serif;
   cursor: pointer; 
   background-color: #73FACB;
