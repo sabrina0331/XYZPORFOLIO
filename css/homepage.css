@@ -20,7 +20,7 @@ header {
 header ul{
     display: flex;
     list-style-type: none;
-    padding-inline-start: 50px;
+    padding-inline-start: 2px;
 }
 header ul a {
     display: block;
@@ -61,7 +61,7 @@ header ul a {
     display: flex;
     list-style-type: none;
     margin-block-start: 2em;
-    width: 50%;
+    width: 32%;
 }
 
 /* main context */
@@ -87,14 +87,14 @@ header ul a {
 }
 .dropdown-content p a{
     width: 100px;
-    height: 30px;
+    height: 15px;
     text-align: center;
 }
 .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
     width: 100px;
-    height: 30px;
+    height: 15px;
     text-align: center;
 }
 
