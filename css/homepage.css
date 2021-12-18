@@ -10,7 +10,8 @@ html {
 
 header {
     display: flex;
-    padding: 2em;
+    /* padding: 1em; */
+ 
 }
 
 header ul{
@@ -28,7 +29,7 @@ header ul a {
 }
 
 .logo img{
-    width: 80%;
+    width: 50%;
     margin-left: 2rem;
 }
 
@@ -36,9 +37,9 @@ header ul a {
     background-color: #73facb;
 }
 
-.social-header {
-    padding: 2em;
-}
+ /* .social-header {
+ padding: 2em;
+}  */
 .social-header ul a {
     padding: 0 1em;
 }
@@ -54,6 +55,9 @@ header ul a {
 }
 
 /* main context */
+.main-context {
+    margin-top: 3rem auto;
+}
 .main-context p{
     font-family: Verdana, sans-serif;
     text-align: center;
@@ -92,6 +96,7 @@ header ul a {
     width: 35em;
     font-family: Verdana, sans-serif;
     line-height: 1.5;
+    margin-bottom: 5rem;
 }
 
 /* projects */
@@ -102,7 +107,7 @@ header ul a {
     grid-column-gap: 1rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -60px;
+    margin-top: 5rem;
 }
 .header-detail {
     position: relative;
@@ -124,17 +129,18 @@ header ul a {
     width: 100%;
     opacity: 0;
     transition:  .1s ease-in-out;
-    background-color: #6CC494;
+    background-color: rgb(203, 232, 182);
 }
 .header-detail:hover .overlay {
     opacity: 1;
     cursor: pointer;
 }
 .text {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     bottom: 40%;
     left:0;
     right: 0;
@@ -143,6 +149,9 @@ header ul a {
 .text a {
     text-decoration: none;
     color: #2B2F29;
+}
+.text button:hover {
+    background-color: #73facb;
 }
 .header-detail-getmarried {
     position: relative;
@@ -158,8 +167,9 @@ header ul a {
     width: 100%;
     opacity: 0;
     transition:  .1s ease-in-out;
-    background-color: #C29FF2;
+    background-color: rgb(221, 197, 255);
 }
+
 .header-detail-getmarried:hover .overlay-getmarried {
     opacity: 1;
     cursor: pointer;
@@ -167,18 +177,21 @@ header ul a {
 }
 .text-getmarried {
     width: 80%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 20%;
     bottom: 40%;
     left:0;
     right: 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
+.text-getmarried button:hover {
+    background-color: #73facb;
+}
+
 .text-getmarried a{
     width: 80%;
     word-wrap: break-word;
@@ -203,19 +216,21 @@ header ul a {
     height:100%;
     width: 100%;
     opacity: 0;
+    text-align: center;
     transition:  .1s ease-in-out;
     background-color: #A8B2C6;
 }
 .header-detail-eatathome:hover .overlay-eatathome {
     opacity: 1;
     cursor: pointer;
+    
 }
 .text-eatathome {
     width: 80%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 28%;
+    top: 20%;
     bottom: 40%;
     left:0;
     right: 0;
@@ -223,14 +238,14 @@ header ul a {
     margin-left: auto;
     margin-right: auto;
 }
-.text-eatathome p{
-    width: 70%;
-    word-wrap: break-word;
-    text-align: center;
+.text-eatathome button:hover {
+    background-color: #73facb;
 }
+
+
 .text-eatathome a {
     width: 80%;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -260,7 +275,7 @@ header ul a {
     cursor: pointer;
 }
 .text-medengagement {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #2B2F29;
     font-size: 20px;
     position: absolute;
