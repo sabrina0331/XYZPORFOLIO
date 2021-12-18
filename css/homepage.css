@@ -7,7 +7,10 @@ html {
     display: grid;
     grid-template-columns: 60% auto; 
 }
-
+/* header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+} */
 header {
     display: flex;
     /* padding: 1em; */
@@ -32,9 +35,16 @@ header ul a {
     width: 50%;
     margin-left: 2rem;
 }
-
+.categories a {
+    text-align:center;
+    width: 100px;
+    height: 20px;
+}
 .categories a:hover{
     background-color: #73facb;
+    width: 100px;
+    height: 20px;
+    text-align: center;
 }
 
  /* .social-header {
@@ -57,28 +67,37 @@ header ul a {
 /* main context */
 .main-context {
     margin-top: 3rem auto;
+    text-align: center;
 }
 .main-context p{
     font-family: Verdana, sans-serif;
-    text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 /* resume-dropdown */
 .dropdown {
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+    display: block;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 120px;
-    
+    text-align: center;
+}
+.dropdown-content p a{
+    width: 100px;
+    height: 30px;
+    text-align: center;
 }
 .dropdown:hover .dropdown-content {
     display: block;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    text-align: center;
 }
+
 .button {
     font-family: Verdana, sans-serif;
     text-align: center;
