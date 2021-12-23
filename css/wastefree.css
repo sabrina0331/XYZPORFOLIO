@@ -39,7 +39,18 @@ a {
 img {
     width: 100%;
 }
-
+.Affinity-Diagram {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.persona {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .categories li:hover{
     background-color: #73facb;
 }
