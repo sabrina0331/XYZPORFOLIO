@@ -79,12 +79,7 @@ header ul a {
     /* position: relative; */
     display: block;
 }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    text-align: center;
-}
+
 .dropdown-content p a{
     width: 100px;
     height: 15px;
