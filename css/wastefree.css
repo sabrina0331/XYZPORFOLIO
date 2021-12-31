@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     margin-left: auto;
     margin-right: auto;
     width: 96%;
@@ -57,25 +57,15 @@ img {
 .categories a:hover {
     background-color: #73facb;
 }
-/* .dropdown {
-    position: relative;
-    display: block;
-} */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    text-align: center;
-    padding: 1rem;
-    
-} 
-.dropdown-content p:hover {
-    background-color:#73facb;
+.categories li {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family:'Inter', sans-serif;
 }
-.dropdown:hover .dropdown-content{
-    display: block;
+.logo {
+    font-family:'Inter', sans-serif;
+    margin-top: 10px;
 }
-
 /* main-content */
 
 .introduction {
@@ -259,14 +249,14 @@ img {
 .footer p {
     color:  #4a4848;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Inter', sans-serif;
     font-weight: 600;
 }
 
 
 #myBtn {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Inter', sans-serif;
     cursor: pointer; 
     width: 120px;
     height: 50px;
