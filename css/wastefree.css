@@ -84,17 +84,17 @@ p,li {
     vertical-align: top;
 }
 #hero-h2{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 23%;
+    padding-right: 23%;
     padding-bottom: 12%;
     color :#333333;
     text-align: center; 
-    width: 65%;
+    width: 60%;
     height: 80%;
     font-size: 2vw;
     font-family: 'Playfair Display', serif;
     vertical-align: top;
-    line-height: 1.6
+    line-height: 1.8;
 }
 
 .website-img {
