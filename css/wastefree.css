@@ -98,7 +98,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding:12px;
-
     border: 1px solid #6CC494;
     margin-bottom: 10px;
 }
@@ -106,7 +105,6 @@ img {
 .goals {
     width: 40%;
     display: grid;
-    /* grid-template-columns: 40% calc(40%); */
     text-align: top;
     margin-left: auto;
     margin-right: auto;

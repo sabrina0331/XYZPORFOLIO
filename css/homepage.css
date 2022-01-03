@@ -47,11 +47,13 @@ header ul a {
     text-align: center;
 }
 
- /* .social-header {
- padding: 2em;
-}  */
+ .social-header {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 3%;
+} 
 .social-header ul a {
-    padding: 0 1em;
+    padding: 0 1vw;
 }
 .social-header img {
     width: 2vw;
@@ -66,7 +68,7 @@ header ul a {
 
 /* main context */
 .main-context {
-    margin-top: 3rem auto;
+    margin-top: 10%;
     text-align: center;
 }
 .main-context p{
