@@ -21,6 +21,7 @@ header ul{
     display: flex;
     list-style-type: none;
     padding-inline-start: 2px;
+    padding-top: 2.5%;
 }
 header ul a {
     display: block;
@@ -39,11 +40,11 @@ header ul a {
     text-align:center;
     width: 169px;
     height: 50px;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 .categories a:hover{
     background-color: #73facb;
-    width: 100px;
+    width: 169px;
     height: 20px;
     text-align: center;
 }
@@ -51,7 +52,7 @@ header ul a {
  .social-header {
     padding-left: 12%;
     padding-right: 12%;
-    padding-top: 3%;
+    padding-top: 5%;
 } 
 .social-header ul a {
     padding: 0 1vw;
