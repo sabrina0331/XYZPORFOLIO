@@ -40,7 +40,7 @@ header ul a {
     text-align:center;
     width: 169px;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
 }
 .categories a:hover{
     background-color: #73facb;
