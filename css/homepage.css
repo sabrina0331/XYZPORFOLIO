@@ -31,14 +31,15 @@ header ul a {
     inline-size: 84px;
 }
 
-.logo img{
+/* .logo img{
     width: 50%;
     margin-left: 2rem;
-}
+} */
 .categories a {
     text-align:center;
-    width: 100px;
-    height: 20px;
+    width: 169px;
+    height: 50px;
+    font-size: 1.5vw;
 }
 .categories a:hover{
     background-color: #73facb;
