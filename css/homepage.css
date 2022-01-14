@@ -1,322 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-html {
-    scroll-behavior: smooth;
-}
-/* header */
-.nav-container {
-    display: grid;
-    grid-template-columns: 60% auto; 
-}
-/* header p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-} */
-header {
+.header { 
     display: flex;
-    /* padding: 1em; */
- 
-}
-
-header ul{
-    display: flex;
-    list-style-type: none;
-    padding-inline-start: 2px;
-    padding-top: 2.5%;
-}
-header ul a {
-    display: block;
-    padding: 1.3em ;
-    margin-left: 10px;
-    text-decoration: none;
-    color: black;
-    inline-size: 84px;
-}
-
-/* .logo img{
-    width: 50%;
-    margin-left: 2rem;
-} */
-.categories a {
-    text-align:center;
-    width: 169px;
-    height: 50px;
-    font-size: 1.2vw;
-}
-.categories a:hover{
-    background-color: #73facb;
-    width: 169px;
-    height: 20px;
-    text-align: center;
-}
-
- .social-header {
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 5%;
-} 
-.social-header ul a {
-    padding: 0 1vw;
-}
-.social-header img {
-    width: 2vw;
-}
-.social-header ul {
-    float: right;
-    display: flex;
-    list-style-type: none;
-    margin-block-start: 2vw;
-    width: 32%;
-}
-
-/* main context */
-.main-context {
-    margin-top: 10%;
-    text-align: center;
-}
-.main-context p{
-    font-family: Verdana, sans-serif;
-    font-size: 3vw;
-    margin-bottom: 5%;
-}
-/* resume-dropdown */
-
-.button {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    background-color: #e7e7e7;
-    border: none; 
-    cursor: pointer;
-    width: 30%;
-}
-/* main-content-context */
-
-
-
-#intro p{
-    font-size: 1rem;
-    padding: 0.6em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35em;
-    font-family: Verdana, sans-serif;
-    line-height: 1.5;
-    margin-bottom: 5rem;
-}
-
-/* projects */
-.projects {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-}
-.header-detail {
-    position: relative;
-    width: 100%;
-}
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
-    box-shadow:  3px 3px 3px rgb(214, 225, 222);
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    height:100%;
-    width: 100%;
-    opacity: 0;
-    transition:  .1s ease-in-out;
-    background-color: rgb(203, 232, 182);
-}
-.header-detail:hover .overlay {
-    opacity: 1;
-    cursor: pointer;
-}
-.text {
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 20%;
-    bottom: 50%;
-    left:0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto;
-}
-.text a {
-    text-decoration: none;
-    color: #2B2F29;
-}
-.text button:hover {
-    background-color: #73facb;
-}
-.header-detail-getmarried {
-    position: relative;
-    width: 100%;
-}
-.overlay-getmarried {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    height:100%;
-    width: 100%;
-    opacity: 0;
-    transition:  .1s ease-in-out;
-    background-color: rgb(221, 197, 255);
-}
-
-.header-detail-getmarried:hover .overlay-getmarried {
-    opacity: 1;
-    cursor: pointer;
-    
-}
-.text-getmarried {
-    /* width: 80%; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 20%;
-    bottom: 60%;
-    left:0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-.text-getmarried button:hover {
-    background-color: #73facb;
-}
-
-.text-getmarried a{
-    width: 80%;
-    word-wrap: break-word;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    color: #2B2F29;
-}
-.header-detail-eatathome {
-    position: relative;
-    width: 100%;
-    margin-top: 1rem;
-
-}
-.overlay-eatathome {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    height:100%;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    transition:  .1s ease-in-out;
-    background-color: #A8B2C6;
-}
-.header-detail-eatathome:hover .overlay-eatathome {
-    opacity: 1;
-    cursor: pointer;
-    
-}
-.text-eatathome {
-    /* width: 80%; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 20%;
-    bottom: 40%;
-    left:0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto;
-}
-.text-eatathome button:hover {
-    background-color: #73facb;
-}
-
-
-.text-eatathome a {
-    width: 80%;
-    /* word-wrap: break-word; */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    color: #2B2F29;
-}
-.header-detail-medengagement {
-    position: relative;
-    width: 100%;
-    margin-top: 1rem;
- 
-}
-.overlay-medengagement {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    height:100%;
-    width: 100%;
-    opacity: 0;
-    transition:  .1s ease-in-out;
-    background-color: #8CDDE1;
-}
-.header-detail-medengagement:hover .overlay-medengagement {
-    opacity: 1;
-    cursor: pointer;
-}
-.text-medengagement {
-    font-family: 'Roboto', sans-serif;
-    color: #2B2F29;
-    font-size: 20px;
-    position: absolute;
-    top: 40%;
-    bottom: 40%;
-    left:0;
-    right: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.text-medengagement p{
-    width: 70%;
-    word-wrap: break-word;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* footer */
-.footer {
-    display: flex;
-    grid-template-columns: 80% auto;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
     justify-content: space-between;
-    padding: 3em;
 }
-.footer p {
-    color: black;
-    font-size: 1.8vw;
-    font-family: Verdana, sans-serif;
+.logo {
+    position: relative;
+    float: left;
 }
-.contact a {
+.logo a{
     text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
 }
-.contact p:hover {
-    background-color: #73facb;
+.main-header {
+    position: relative;
+    float: right;
+}
+.main-header a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-family: Lato, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main-header a:hover{
+    text-decoration: underline  10px #1CE9B8;
+}
+/* .nav {
+   display: 
+} */
+@media screen and (max-width: 1200px){
+    .main-header{
+        display: none;
+    }
+}
+
+.intro {
+    text-align: center;
+    margin-top: 300px;
+    font-family: Lato, sans-serif;
+    border-left: 3px solid #1CE9B8;
+    border-right: 3px solid #1CE9B8;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro h1{
+    width: 60%;
+    margin: auto;
+    line-height: 1.6;
+    margin-top: 40px;
+    font-size: 4rem;
+    font-family: Lato, sans-serif;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+.intro span{
+    font-weight: 900;
+}
+.projects{
+    width: 100%;
+    display: block;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+}
+.project {
+    display: inline-block;
+}
+/* .project:nth-of-type(3){
+    flex: 2 200px;
+} */
+.project a{
+    text-decoration: none;
+    color: black;
+}
+.project img{
+    display: inline-block;
+    padding: 22%;
+    width: 90%;
+    padding-left: auto;
+    padding-right: auto;
+    filter:drop-shadow(16px 16px 10px rgb(255, 232, 232));
+}
+.project p{
+    font-family: Lato, sans-serif;
+    font-size: 1.6rem;
+    margin-left: 23%;
+    margin-top: -18%;
+    width: 90%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.project p:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 40%;
+}
+
+.footer {
+    margin-top: 300px;
+}
+.footer img{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.gmail p{
+    margin-bottom: -40px;
+    margin-left: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 1.6rem;
 }
 
