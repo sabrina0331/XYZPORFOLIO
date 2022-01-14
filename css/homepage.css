@@ -129,6 +129,10 @@ body {
     .main-header{
         display: none;
     }
+    .projects{
+        display: block;
+        margin-top: 100px;
+    }
     .project {
         display: inline-block;
         width: 80%;
@@ -150,5 +154,19 @@ body {
         width: 90%;
         padding-left: auto;
         padding-right: auto;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .footer img{
+        width: 25px;
+        height: 25px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    .gmail p{
+        margin-bottom: -18px;
+        font-family: Lato, sans-serif;
+        font-size: 1.1rem;
     }
 }
