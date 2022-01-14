@@ -1,8 +1,9 @@
-
-
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
 .header { 
     display: flex;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 60px;
     padding-right: 60px;
     justify-content: space-between;
@@ -25,7 +26,7 @@
     margin-left: 40px;
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Lato, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -44,7 +45,7 @@
 
 .intro {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 15%;
     font-family: Lato, sans-serif;
     border-left: 3px solid #1CE9B8;
     border-right: 3px solid #1CE9B8;
@@ -55,15 +56,14 @@
 .intro h1{
     width: 60%;
     margin: auto;
-    line-height: 1.6;
-    margin-top: 40px;
-    font-size: 4rem;
+    line-height: 1.6; 
+    font-size: 2.5rem;
     font-family: Lato, sans-serif;
 }
 .intro p{
-    width: 75%;
+    width: 50%;
     margin: auto;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: Lato, sans-serif;
     line-height: 1.6;
     margin-top: 30px;
@@ -74,14 +74,11 @@
 .projects{
     display: block;
     margin-top: 200px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    
-    
 }
+
 .project {
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 /* .project:nth-of-type(3){
     flex: 2 200px;
@@ -93,16 +90,15 @@
 .project img{
     display: inline-block;
     padding: 4%;
-    width: 70%;
-    margin-left: 11%;
-    /* padding-left: auto;
-    padding-right: auto; */
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 18%;
     filter:drop-shadow(16px 16px 10px rgb(255, 232, 232));
 }
 .project p{
     font-family: Lato, sans-serif;
-    font-size: 1.6rem;
-    margin-left: 15%;
+    font-size: 1.2rem;
+    margin-left: 23%;
     margin-top: 1%;
     width: 90%;
     padding-left: auto;
@@ -120,8 +116,8 @@
 }
 .footer img{
     float: right;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 50px;
     margin-bottom: 40px;
 }
@@ -129,6 +125,6 @@
     margin-bottom: -40px;
     margin-left: 20px;
     font-family: Lato, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
