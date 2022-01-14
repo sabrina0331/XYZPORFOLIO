@@ -16,6 +16,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.logo a.active {
+  text-decoration: underline 5px solid #1CE9B8;
+}
+
 nav{
   position: fixed; 
   right:0;
@@ -70,7 +74,8 @@ a {
   margin-right: auto;
 }
 .intro p {
-  text-align-last: center;
+  /* text-align-last: center; */
+  text-align: center;
   margin-left: 20%;
   margin-right: 20%;
   font-size: 1.2em;
