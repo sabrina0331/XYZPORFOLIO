@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Source+Serif+Pro:wght@300&display=swap');
 html {   scroll-behavior: smooth; }
-
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding: 1.5em;
+}
 h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5em;
@@ -16,10 +19,7 @@ p {
     width: 85%;
 }
 
-body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    padding: 1.5em;
-}
+
 a {
     text-decoration: none;
     color: black;
