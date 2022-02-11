@@ -18,7 +18,7 @@ h3 {
     font-family: acumin-pro-condensed,sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 p {
     font-family: acumin-pro,sans-serif;
@@ -53,7 +53,7 @@ header svg{
 .sticky {
     position: fixed;
     top:0;
-    padding: 1em;
+    padding: .2em;
     width: 94%;
   }
   
@@ -572,5 +572,166 @@ nav a:hover {
         background: none;
         color: black;
         text-decoration: underline 5px solid #1CE9B8;
+    }
+}
+@media screen and (max-width: 500px){
+    .menu {
+        display: none;
+    }
+    nav {
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+    }
+    svg.close {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin: 0;
+        font-size: .5em;
+    }
+    nav a {
+        padding: .5em  .8em;
+    }
+    #hero-h1 {
+        font-size: 1.4em;
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    #hero-h2 {
+        font-size: 1em;
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .recycle-img {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .preface-info {
+        width: 100%;
+        text-align: top;
+    }
+    .preface-info h3,p {
+        font-size: 1em;
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .experience {
+        width: 100%;
+    }
+    h2 {
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.4em;
+    }
+    h3 {
+        /* font-family: 'Bebas Neue', cursive; */
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2em;
+    }
+    .proto-video {
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2em;
+    }
+    h4 {
+        font-family: acumin-pro-condensed,sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1em;
+    }
+    p {
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    span{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .myhypothese li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .keyfinding-info li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .define-problem li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .define-problem p {
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .ideate  li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .low-wireframe p {
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .wireframe-padding p {
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .usability p, li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .usability li{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .testing p{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    .final p{
+        font-family: acumin-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+    }
+    video {
+        width: 60%;
     }
 }

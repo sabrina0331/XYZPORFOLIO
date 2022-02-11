@@ -302,3 +302,10 @@ a {
     width: 80%;
   }
 }
+@media screen and (max-width: 500px){
+  .gifs iframe{
+    display: block;
+    margin-left: 40%; 
+    margin-right: 40%; 
+  }
+  }
