@@ -24,7 +24,7 @@ p {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
     width: 85%;
 }
 
@@ -41,6 +41,9 @@ header{
 }
 header a{
     font-size: 1.8em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 header svg{
     width: 3em;
@@ -180,7 +183,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .introduction {
@@ -264,7 +267,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .define-problem {
     display: block;
@@ -281,7 +284,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .define-problem p {
     padding-top: 2%;
@@ -289,7 +292,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .define-problem img{
     width: 100%;
@@ -318,7 +321,7 @@ nav a:hover {
     font-weight: 400;
     font-style: normal;
     /* line-height: 1.3; */
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .handwireframe {
     display: block;
@@ -370,7 +373,7 @@ nav a:hover {
     font-style: normal;
     /* line-height: 1.3; */
     padding-top: 3%;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .wireframe img{
     border: 1px solid slategray;
@@ -409,7 +412,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .usability {
     display: block;
@@ -425,7 +428,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
     /* width: 75%; */
     padding-top: 3%;
 }
@@ -433,7 +436,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
     width: 85%;
 }
 .affinity-diagram{
@@ -489,7 +492,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .final{
     padding-left: 20%;
@@ -504,7 +507,7 @@ nav a:hover {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4em;    
+    font-size: 1.2em;    
     padding-bottom: 6%;
 }
 /* footer */
@@ -515,17 +518,21 @@ nav a:hover {
 }
 .footer a {
     color:black;
-    font-size: 1em;
-    font-family: Lato, sans-serif;
+    font-size: 1.2em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .footer a:hover {
     background-color: #73facb;
 }
 
 #myBtn {
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
-    font-family: Lato, sans-serif;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     cursor: pointer; 
     border: none;
     background: none;

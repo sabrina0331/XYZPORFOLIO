@@ -7,17 +7,23 @@ body {
     padding: 1.5em;
 }
 h2 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 2.5em;
     text-decoration: underline 5px solid rgb(144, 173, 228);
 }
 h3 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.8em;
 }
 p {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.4em;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
     width: 85%;
 }
 
@@ -25,7 +31,9 @@ p {
 a {
     text-decoration: none;
     color: black;
-    font-family: Lato, sans-serif;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 header{
     display: flex;
@@ -87,8 +95,9 @@ nav a:hover {
     width: 60%;
     height: 80%;
     font-size: 3em;
-    /* font-family:'Inter', sans-serif; */
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     vertical-align: top;
 }
 #hero-h2{
@@ -99,9 +108,11 @@ nav a:hover {
     text-align: center; 
     width: 55%;
     font-size: 1.5em;
-    font-family: 'Source Serif Pro', serif;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     vertical-align: top;
-    line-height: 1.8;
+    /* line-height: 1.8; */
 }
 
 .myfriend-story {
@@ -112,32 +123,37 @@ nav a:hover {
     padding-top: 3%;
     padding-bottom: 4%;
     width: 72%;
-    line-height: 1.6;
+    /* line-height: 1.6; */
 }
 .myfriend-story h2 {
     padding-left: 8%;
     padding-right: 20%;
-    font-family: 'Bebas Neue', cursive;
 }
 .myfriend-story span {
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.2em;
 }
 .myfriend-story p {
     display: block;
     padding-left: 8%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 .introduction {
     display: block;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
-    font-family: 'Bebas Neue', cursive;
     font-size: 1.3em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
     width: 65%;
     height: 10%;
-    line-height: 1.6;
     margin-left: auto;
     margin-right: auto;
 }
@@ -148,12 +164,15 @@ nav a:hover {
     width: 70%;
 }
 .assumption p {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.4em;
-    line-height: 1.6;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 .assumption span{
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.2em;
 }
 .discovery{
@@ -168,9 +187,10 @@ nav a:hover {
 .discovery p {
     width: 100%;
     padding-top: 3%;
-    line-height: 1.6;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.4em;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 .survey-response{
     padding-left: 5%;
@@ -190,7 +210,9 @@ nav a:hover {
     padding-right: 20%;
     width: 56%;
     padding-top: 6%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.8em;
 }
 .persona{
@@ -213,9 +235,10 @@ nav a:hover {
     padding-top: 2%;
     width: 100%;
     height: 80%;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.4em;
-    line-height: 1.6;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 .userflow {
     background-color:#CFDFFD;
@@ -265,8 +288,10 @@ nav a:hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
-    font-family:'Inter', sans-serif;
-    font-size: 1.3vw;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
     width: 80%;
 }
 
@@ -291,7 +316,9 @@ nav a:hover {
     padding-left: 20%;
     padding-right: 20%;
     width: 60%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.8em;
 }
 video {
@@ -330,12 +357,12 @@ video {
     width: 69%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.6;
 }
 .final p{
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.4em;
-    line-height: 1.6;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 /* footer */
 .footer {
@@ -349,17 +376,21 @@ video {
 
 .footer a {
     color:black;
-    font-size: 1em;
-    font-family: Lato, sans-serif;
+    font-size: 1.2em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .contact p:hover {
     background-color:#CFDFFD;
 }
 
 #myBtn {
-    font-size: 1em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: black;
-    font-family: Lato, sans-serif;
+    font-size: 1.2em;
     cursor: pointer; 
     border: none;
     background: none;
