@@ -89,14 +89,14 @@ nav a:hover {
 }
 
 /* main-contemt */
-.hero-header {
-    background-color:#B6FFD7;
-    /* background-image:  linear-gradient(#87DCAD, #B6FFD7); */
+.heroimage {
+    width: 100%;
 }
+
 #hero-h1 {
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 10%;
+    padding-top: 6%;
     margin-bottom: 5%;
     text-align: center; 
     width: 60%;
