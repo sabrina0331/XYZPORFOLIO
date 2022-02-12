@@ -42,7 +42,10 @@ header{
     background-color: white;
 }
 header a{
-    font-size: 1.8em;
+    font-size: 2.3em;
+    font-family: acumin-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 header svg{
     width: 3em;
@@ -52,7 +55,7 @@ header svg{
 .sticky {
     position: fixed;
     top:0;
-    padding: 1em;
+    padding: .2em;
     width: 94%;
   }
   
