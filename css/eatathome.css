@@ -107,6 +107,7 @@ nav a:hover {
 #hero-h2{
     padding-left: 23%;
     padding-right: 23%;
+    padding-top: 8%;
     padding-bottom: 10%;
     color :#333333;
     text-align: center; 
@@ -128,6 +129,11 @@ nav a:hover {
     padding-bottom: 4%;
     width: 72%;
     /* line-height: 1.6; */
+}
+.heroheader {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .myfriend-story h2 {
     padding-left: 8%;
