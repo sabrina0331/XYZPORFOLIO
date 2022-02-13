@@ -131,9 +131,8 @@ nav a:hover {
     /* line-height: 1.6; */
 }
 .heroheader {
+    display: block;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .myfriend-story h2 {
     padding-left: 8%;
