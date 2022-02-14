@@ -105,7 +105,7 @@ nav a:hover {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 6%;
-    margin-bottom: 5%;
+    /* padding-bottom: 3%; */
     text-align: center; 
     width: 60%;
     height: 80%;
@@ -154,7 +154,7 @@ nav a:hover {
     display: block;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 4%;
+    padding-top: 2%;
     width: 75%;
     height: 10%;
     /* line-height: 1.6; */
@@ -616,12 +616,12 @@ nav a:hover {
         font-weight: 400;
         font-style: normal;
     }
-    .recycle-img {
+    /* .recycle-img {
         display: block;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
     .preface-info {
         width: 100%;
         text-align: top;
