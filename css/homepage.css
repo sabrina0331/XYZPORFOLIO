@@ -184,8 +184,8 @@ nav a:hover {
         text-decoration: underline 5px solid #1CE9B8;
     }
     .projects{
-    display: block;
-    margin-top: 8%;
+        display: block;
+        margin-top: 1%;
     }
     .project {
         display: inline-block;
