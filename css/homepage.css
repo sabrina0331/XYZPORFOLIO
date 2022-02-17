@@ -70,32 +70,32 @@ nav a:hover {
 }
 .project img{
     display: block;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    padding: 2%;
-    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    /* padding: 2%; */
+    width: 60%;
     /* margin-top: 5%; */
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 33%;
+    margin-right: 33%;
     filter:drop-shadow(5px 5px 5px rgb(177, 177, 177));
 }
 .project p{
    font-family: acumin-pro-condensed,sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.5em;
-    margin-left: 23%;
-    margin-top: 2%;
+    font-size: 1em;
+    /* margin-left: 23%; */
+    margin-top: 4%;
     /* width: 80%; */
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 
   /* main-content */
 .intro {
     text-align: center;
-    margin-top: 6%;
+    margin-top: 3%;
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -198,11 +198,12 @@ nav a:hover {
         color: black;
     }
     .project img{
+        border-radius: 8%;
         display: inline-block;
-        padding: 6%;
-        width: 60%;
-        margin-left: 30%;
-        margin-right: 30%;
+        padding: 3%;
+        width: 70%;
+        margin-left: 25%;
+        margin-right: 25%;
         filter:drop-shadow(5px 5px 5px rgb(177, 177, 177));
     }
     .project p{
