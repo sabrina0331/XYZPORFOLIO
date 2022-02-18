@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 1em;
@@ -70,14 +71,14 @@ nav a:hover {
 }
 .project img{
     display: block;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
     /* padding: 2%; */
-    width: 60%;
+    width: 70%;
     /* margin-top: 5%; */
-    margin-left: 33%;
-    margin-right: 33%;
-    filter:drop-shadow(5px 5px 5px rgb(177, 177, 177));
+    margin-left: 28%;
+    margin-right: 28%;
+    /* filter:drop-shadow(5px 5px 5px rgb(177, 177, 177)); */
 }
 .project p{
    font-family: acumin-pro-condensed,sans-serif;
@@ -109,19 +110,19 @@ nav a:hover {
     width: 60%;
     margin: auto;
     line-height: 1.6; 
-    font-size: 2.5em;
-    /* font-family: acumin-pro-condensed,sans-serif;
-    font-weight: 700;
-    font-style: normal; */
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
-
+.intro span {
+    text-decoration: underline;
+}
 .intro p{
     width: 50%;
     margin: auto;
-    font-size: 1.1em;
-    font-family: acumin-pro,sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 1.8em;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin-top: 30px;
 }
@@ -183,48 +184,44 @@ nav a:hover {
         color: black;
         text-decoration: underline 5px solid #1CE9B8;
     }
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-auto-rows: min-content;
+    }
+    .project a {
+        width: 120%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        line-height: 0;
+    }
+    .project img {
+        width: 125%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        line-height: 0;
+    }
  
-    .projects{
-        display: block;
-        margin-top: 1%;
-    }
-    .project {
-        display: inline-block;
-        margin-top: 1.5%;
-        width: 43%;
-    }
-    .project a{
-        text-decoration: none;
-        color: black;
-    }
-    .project img{
-        border-radius: 8%;
-        display: inline-block;
-        padding: 3%;
-        width: 70%;
-        margin-left: 25%;
-        margin-right: 25%;
-        filter:drop-shadow(5px 5px 5px rgb(177, 177, 177));
-    }
-    .project p{
-        font-family: acumin-pro-condensed,sans-serif;
-        font-weight: 700;
-        font-style: normal; 
-        font-size: 1.2em;
-        margin-left: 41%;
-        margin-top: 1%;
-        width: 90%;
-        padding-left: auto;
-        padding-right: auto;
-        text-decoration: none;
-        color:black;
-    }
-    .project p:hover {
-        color: white;
-        background-color: black;
-        cursor: pointer;
-        width: 40%;
-    }
-
     
+    
+}
+@media screen and (max-width: 500px){
+    .intro h1{
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .project img {
+        width: 125%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        line-height: 0;
+    }
 }
