@@ -270,10 +270,13 @@ nav a:hover {
     margin-right: auto;
     /* line-height: 1.6; */
 }
+.wireframe-picture{
+    width: 100%;
+}
 .low-wireframe{
     display: block;
-    padding-left: 20%;
-    padding-right: 20%;
+    /* padding-left: 20%;
+    padding-right: 20%; */
     padding-top: 6%;
     width: 58%;
     margin-left: auto;
