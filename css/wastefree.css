@@ -24,6 +24,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
+    line-height: 1.6em;
     /* width: 85%; */
 }
 
@@ -272,6 +273,7 @@ nav a:hover {
 }
 .wireframe-picture{
     width: 100%;
+
 }
 .low-wireframe{
     display: block;
@@ -289,7 +291,7 @@ nav a:hover {
     font-style: normal;
     /* line-height: 1.3; */
     padding-top: 3%;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .wireframe img{
     border: 1px solid slategray;
@@ -335,19 +337,17 @@ nav a:hover {
     display: block;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 6%;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    /* line-height: 1.6; */
+
 }
+
 .usability p {
     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
-    /* width: 75%; */
-    padding-top: 3%;
 }
 .usability li {
     font-family: acumin-pro,sans-serif;
@@ -358,10 +358,8 @@ nav a:hover {
 }
 .affinity-diagram{
     display: block;
-    padding-left: 12%;
-    padding-right: 12%;
     padding-top: 6%;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -394,8 +392,42 @@ nav a:hover {
     font-size: 1.5em;
     width: 60%; 
 }
-
-
+.high-interview {
+    display:block;
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.high-interview img{
+    display:  inline-block;
+}
+.usability-testing{
+    display: block;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 10%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* line-height: 1.6; */
+}
+.keychanges-user{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 6%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.changed-prototype{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
 .final{
     padding-left: 20%;
     padding-right: 20%;
