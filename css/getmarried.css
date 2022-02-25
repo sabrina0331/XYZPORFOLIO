@@ -111,9 +111,9 @@ nav a:hover {
 .header-detail p{
     display: inline-block;
     font-size:  1em;
-    width: 100%;
-    margin-left: 8rem;
-    line-height: 0;
+    width: 120%;
+    margin-left: 3rem;
+    line-height: 1;
 }
 
 #hero-h1 {
@@ -628,7 +628,8 @@ nav a:hover {
     .header-detail p{
         display: inline-block;
         width: 80%;
-        margin-top: 1em;
+        margin-left: 10em;
+        margin-top: .5em;
     }
    
 }
@@ -684,8 +685,8 @@ nav a:hover {
     }
 
     .header-detail p{
-        font-size:.6em;
-        width: 80%;
+        font-size:.8em;
+        width: 100%;
     }
     .experience h2 {
         font-size: 1.3em;

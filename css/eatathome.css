@@ -127,14 +127,13 @@ nav a:hover {
 .header-detail{
     display: inline-block;
     width: 30%;
-    margin-top: 1.2rem;
 }
 .header-detail p{
     display: inline-block;
     font-size:  1em;
-    width: 50%;
-    margin-left: 8rem;
-    line-height: 0;
+    width: 120%;
+    margin-left: 3rem;
+    line-height: 1;
 }
 .myfriend-story {
     display: block;
@@ -448,7 +447,8 @@ video {
     .header-detail p{
         display: inline-block;
         width: 80%;
-        margin-top: 1em;
+        margin-left: 10em;
+        margin-top: .5em;
     }
     
 }
@@ -500,8 +500,8 @@ video {
     }
 
     .header-detail p{
-        font-size:.6em;
-        width: 80%;
+        font-size: .8em;
+        width: 100%;
     }
     h3 {
         font-size: 1.2em;
