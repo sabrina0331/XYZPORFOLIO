@@ -11,7 +11,7 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 2em;
-    text-decoration: underline 5px solid #73facb;
+    text-decoration: underline 5px solid  rgb(146, 242, 245);
 }
 h3 {
     /* font-family: 'Bebas Neue', cursive; */
@@ -25,7 +25,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
-    line-height: 1.6em;
+    line-height: 28px;
     /* width: 85%; */
 }
 
@@ -100,7 +100,8 @@ nav a:hover {
 
 .hero-header{
     display: block;
-    border-top:  5px solid rgb(162, 210, 252);
+    /* border-top:  5px solid rgb(162, 210, 252); */
+    border-top:  5px solid  rgb(146, 242, 245);
 }
 .header-detail{
     display: inline-block;
@@ -153,6 +154,33 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.problem-statement p{
+    width: 90%;
+}
+.header-prototype {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/* button prototype */
+.protobutton {
+    display: block;
+    width: 30%;
+    padding: .9em;
+    text-align: center;
+    border-radius: 6px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.protobutton:hover {
+    background-color:rgb(146, 242, 245);
+    border: 4px solid white;
+    border-radius: 6px;
+}
 /* footer */
 .footer {
     display: flex;
@@ -167,7 +195,7 @@ nav a:hover {
     font-style: normal;
 }
 .footer a:hover {
-    background-color: #73facb;
+    background-color: rgb(146, 242, 245);
 }
 
 #myBtn {
@@ -181,7 +209,7 @@ nav a:hover {
     background: none;
 }
 #myBtn:hover {
-    background-color: #73facb;
+    background-color:rgb(146, 242, 245);
 }
 
 .open-nav {

@@ -233,7 +233,7 @@ nav a:hover {
     padding-right: 20%;
     padding-top: 6%;
     padding-bottom: 6%;
-    background-color:#CFDFFD;
+    background-color:#E9F0FE;
 }
 .wireframing h3 {
     padding-top: 2%;
@@ -248,7 +248,7 @@ nav a:hover {
     font-size: 1em;
 }
 .userflow {
-    background-color:#CFDFFD;
+    background-color:#E9F0FE;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -257,7 +257,7 @@ nav a:hover {
 
 
 .wireframes{
-    background-color:#CFDFFD;
+    background-color:#E9F0FE;
     margin-top: -4px;
     display: grid;
     grid-template-columns: 2fr 2fr ;
