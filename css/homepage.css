@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 body {
+    /* background-color:#596698; */
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 1em;
 }
