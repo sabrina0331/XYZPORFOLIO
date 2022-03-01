@@ -3,6 +3,7 @@ body {
     /* background-color:#596698; */
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 1em;
+    /* background-color:rgb(219,140,73,35%); */
     /* background-color: rgb(216, 216, 216); */
    /* background-image: linear-gradient(#1D8493, #9B6559);  */
 }
@@ -119,6 +120,9 @@ nav a:hover {
 }
 .intro span {
     text-decoration: underline;
+}
+.intro img {
+    margin-top: 2%;
 }
 .intro p{
     width: 50%;
