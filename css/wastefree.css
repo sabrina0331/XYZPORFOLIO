@@ -109,7 +109,7 @@ nav a:hover {
 /* button prototype */
 .protobutton {
     display: block;
-    width: 30%;
+    width: 20%;
     padding: .9em;
     text-align: center;
     border-radius: 6px;
@@ -125,7 +125,7 @@ nav a:hover {
 }
 .proto-header {
     display: block;
-    width: 45%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10%;
@@ -411,7 +411,7 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-.proto-video {
+/* .proto-video {
     display: block;
     padding-left: 20%;
     padding-right: 20%;
@@ -421,7 +421,7 @@ nav a:hover {
     font-style: normal;
     font-size: 1.5em;
     width: 60%; 
-}
+} */
 .high-interview {
     display:block;
     width: 80%;
@@ -451,12 +451,13 @@ nav a:hover {
     margin-right: auto;
 }
 .changed-prototype{
-    padding-left: 10%;
-    padding-right: 10%;
+    display: block;
+    /* padding-left: 10%;
+    padding-right: 10%; */
     padding-top: 3%;
-    width: 80%;
-    /* margin-left: auto;
-    margin-right: auto; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .final{
     padding-left: 20%;
