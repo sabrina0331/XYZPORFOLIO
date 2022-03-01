@@ -124,8 +124,71 @@
     </div>
     <div class="user-test">
         <h2>Test</h2>
-        <h3>Tested with </h3>
+        <h3>Low Color Contrast Will Confuse Some Users, Accessible Design Improves Access to All Users.</h3>
+        <p style="padding-bottom: 6%;">When I was testing the prototype with some friends and our team, Some people found the color of the app's background and text do not have strong contrast. I used Contrast Check and decided to change the colors.</p>
+        
+    </div>
+    <div class="iterate">
+        <h2>Next Steps & Prototype</h2>
+        <p style="padding-bottom: 6%;">After changing the main color, I met with our team. We settled on the design and our team Engineer will start to develop the app. During the implementation, I will keep meeting up with the team and iterate the design with Users' Feedback.</p>
+        <div class="protofirst">
+            <a href="https://www.figma.com/proto/PCYrTW5UFugI4LylH7QIVX/Untitled?page-id=0%3A1&node-id=51%3A32&viewport=340%2C48%2C0.5&scaling=scale-down&starting-point-node-id=51%3A32"><strong>Try Out Final Prototype</strong></a>
+        </div>
     </div>
     </div>
+    <div class="footer">
+        <div class="home-next">
+            <a href="wastefree.html">< Previous Project</a>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+        <div class="home-next">
+            <a href="Eatathome.html">Next Project ></a>
+        </div>
+    </div>
+     <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        //navbar //
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+        
+        menu.addEventListener('click', () => {
+            nav.classList.add('open-nav')
+        })
+        close.addEventListener('click', () => {
+            nav.classList.remove('open-nav')
+        })
+
+        //scroll//
+        window.onscroll = function() { myFunction() };
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky){
+                header.classList.add("sticky")
+            }else {
+                header.classList.remove("sticky")
+            }
+        }
+    </script>
 </body>
 </html>
