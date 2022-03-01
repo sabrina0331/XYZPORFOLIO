@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Source+Serif+Pro:wght@300?family=Fira+Sans:wght@500&display=swap');
 html {   scroll-behavior: smooth; }
 body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-   
-    
+    overflow-x: hidden; 
+    color:#636363;/* Hide horizontal scrollbar */
 }
 h2 {
     /* font-family: 'Bebas Neue', cursive; */
@@ -106,6 +105,31 @@ nav a:hover {
     display: inline-block;
     width: 30%;
     /* margin-top: .9rem; */
+}
+/* button prototype */
+.protobutton {
+    display: block;
+    width: 30%;
+    padding: .9em;
+    text-align: center;
+    border-radius: 6px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.protobutton:hover {
+    background-color: rgb(101, 210, 152);
+    border: 4px solid white;
+    border-radius: 6px;
+}
+.proto-header {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .header-detail p{
     display: inline-block;

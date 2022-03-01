@@ -3,6 +3,8 @@ body {
     /* background-color:#596698; */
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 1em;
+    /* background-color: rgb(216, 216, 216); */
+   /* background-image: linear-gradient(#1D8493, #9B6559);  */
 }
   /* header */
 a {
