@@ -133,7 +133,7 @@ nav a:hover {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 2%;
-    width: 60%;
+    width: 56%;
     height: 10%;
     /* line-height: 1.6; */
     margin-left: auto;
@@ -148,7 +148,7 @@ nav a:hover {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 2%;
-    width: 60%;
+    width: 56%;
     height: 10%;
     /* line-height: 1.6; */
     margin-left: auto;
@@ -187,7 +187,7 @@ nav a:hover {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 2%;
-    width: 60%;
+    width: 56%;
     height: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -195,12 +195,97 @@ nav a:hover {
 .research img{
     width: 50%;
 }
+.interview{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.defineuserflow{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.design {
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.present-wireframe{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.present-wireframe h3{
+    font-size: 1.2em;
+}
+.prototype{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highprototype{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highprototype img{
+    width: 100%; 
+    padding-bottom: 3%;
+}
+.user-test{
+    display: block;
+    margin:0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    width: 56%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* footer */
 .footer {
     display: flex;
     justify-content: space-between;
     padding: 3em;
 }
+
 .footer a {
     color:black;
     font-size: 1.2em;
