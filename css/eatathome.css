@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Source+Serif+Pro:wght@300&display=swap');
 html {
     scroll-behavior: smooth;
-    color:#636363; 
+    color:rgb(44, 45, 72);
 }
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */

@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Source+Serif+Pro:wght@300?family=Fira+Sans:wght@500&display=swap');
-html {   scroll-behavior: smooth; }
+html {   
+    scroll-behavior: smooth; 
+    background: #f6ece3;
+  
+}
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    color:#636363;
-    
+    color: rgb(44, 45, 72);
 }
 h2 {
     /* font-family: 'Bebas Neue', cursive; */
