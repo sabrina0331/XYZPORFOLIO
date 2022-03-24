@@ -8,6 +8,18 @@ body {
     padding: 1.5em;
     background:#f6ece3;
 }
+body::after {
+    background: url("/images/texture2.jpeg");
+    content: "";
+    height: 899%;
+    left: 0;
+    opacity: .08;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 201;
+}
 h2 {
     font-family: acumin-pro-condensed,sans-serif;
     font-weight: 700;

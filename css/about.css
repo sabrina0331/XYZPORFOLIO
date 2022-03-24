@@ -7,6 +7,18 @@ body {
   overflow-x: hidden; 
   padding: 1.5em;
 }
+body::after {
+  background: url("/images/texture2.jpeg");
+  content: "";
+  height: 230%;
+  left: 0;
+  opacity: .08;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 201;
+}
 a {
   text-decoration: none;
   color: rgb(44, 45, 72);

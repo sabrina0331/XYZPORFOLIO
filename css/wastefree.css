@@ -6,7 +6,22 @@ html {
 body {
     overflow-x: hidden; 
     color: rgb(44, 45, 72);/* Hide horizontal scrollbar */
+    /* text-align: justify; */
+    /* word-spacing: normal; */
 }
+body::after {
+    background: url("/images/texture2.jpeg");
+    content: "";
+    height: 1215%;
+    left: 0;
+    opacity: .08;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 201;
+}
+/*  */
 h2 {
     /* font-family: 'Bebas Neue', cursive; */
     font-family: acumin-pro-condensed,sans-serif;

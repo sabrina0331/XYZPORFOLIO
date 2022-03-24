@@ -8,6 +8,18 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     color:  rgb(44, 45, 72);
 }
+body::after {
+    background: url("/images/texture2.jpeg");
+    content: "";
+    height: 1100%;
+    left: 0;
+    opacity: .08;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 201;
+}
 h2 {
     /* font-family: 'Bebas Neue', cursive; */
     font-family: acumin-pro-condensed,sans-serif;
