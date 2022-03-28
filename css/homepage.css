@@ -9,9 +9,9 @@ body {
     padding: 1em;
 }
 body::after {
-    background: url("/images/texture2.jpeg");
+    background: url("/PortfolioWeb/images/texture2.jpeg");
     content: "";
-    height: 200%;
+    height: 180%;
     left: 0;
     opacity: .08;
     pointer-events: none;
@@ -20,19 +20,6 @@ body::after {
     width: 100%;
     z-index: 201;
 }
-/* footer::after {
-    background: url("/images/texture2.jpeg");
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: .1;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 201;
-} */
-  /* header */
 a {
     text-decoration: none;
     color: rgb(44, 45, 72);
@@ -151,6 +138,8 @@ nav a:hover {
 }
 .intro img {
     margin-top: 2%;
+    width: 40%;
+    border-radius: 2%;
 }
 .intro p{
     width: 50%;
