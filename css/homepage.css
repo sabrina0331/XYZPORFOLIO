@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-html{
+/* html{
     background: #f6ece3;
    
-}
+} */
 body {
     /* background-color:#596698; */
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 1em;
 }
 body::after {
-    background: url("/PortfolioWeb/images/texture2.jpeg");
+    background: url("/images/texture2.jpeg");
     content: "";
     height: 180%;
     left: 0;

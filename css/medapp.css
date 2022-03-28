@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&?family=Source+Serif+Pro:wght@300?family=Fira+Sans:wght@500&display=swap');
 html {   
     scroll-behavior: smooth; 
-    background: #f6ece3;
-  
+}
+#progress-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background: linear-gradient(to right, #537494, #93c9ff);
+    z-index: 100;
+    width: 20%;
+    transition: width 0.3s ease-out;
 }
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -11,7 +19,7 @@ body {
 body::after {
     background: url("/images/texture2.jpeg");
     content: "";
-    height: 1100%;
+    height: 150%;
     left: 0;
     opacity: .08;
     pointer-events: none;
@@ -26,7 +34,7 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 2em;
-    text-decoration: underline 5px solid #567899
+    text-decoration: underline 5px solid #567899;
 }
 h3 {
     /* font-family: 'Bebas Neue', cursive; */
@@ -55,7 +63,7 @@ header{
     padding: 1.5em;
     display: flex;
     justify-content: space-between;
-    background-color: #f6ece3;
+    background-color: white;
 }
 header a{
     font-size: 2.3em;
