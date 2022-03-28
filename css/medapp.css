@@ -9,7 +9,7 @@ html {
     height: 10px;
     background: linear-gradient(to right, #537494, #93c9ff);
     z-index: 100;
-    width: 20%;
+    width: 0%;
     transition: width 0.3s ease-out;
 }
 body {
