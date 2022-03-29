@@ -261,7 +261,12 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-
+.prototype-interaction{
+    padding-top: 4%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 .protobutton:hover {
     background-color: white;
     border: 4px solid white;

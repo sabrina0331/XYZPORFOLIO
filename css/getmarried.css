@@ -9,6 +9,12 @@ body {
     padding: 1.5em;
     color:rgb(44, 45, 72);
 }
+.prototype-interaction{
+    padding-top:4%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 #progress-bar{
     position: fixed;
     top: 0;
