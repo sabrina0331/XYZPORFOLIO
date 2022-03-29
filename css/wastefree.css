@@ -13,6 +13,11 @@ html {
     width: 0%;
     transition: width 0.3s ease-out;
 }
+.prototype-interaction{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 body {
     overflow-x: hidden; 
     color: rgb(44, 45, 72);/* Hide horizontal scrollbar */

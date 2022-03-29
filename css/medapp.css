@@ -212,6 +212,13 @@ nav a:hover {
     border-radius: 6px;
 }
 
+.protoype-interact{
+    padding-top: 3%;
+    text-align: center;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .protofirst {
     display: block;
     width: 25%;
