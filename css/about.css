@@ -2,10 +2,10 @@
 html{
   scroll-behavior: smooth;
   background-image: url("/images/airplane.png");
-  background-size: 20 20;
+  background-size: 800px 600px;
   background-repeat: no-repeat;
   background-position-x: 70%;
-  background-position-y: -2%;
+  background-position-y: 8%;
 }
 
 body {
@@ -163,7 +163,7 @@ p{
   margin-top: 10%;
 }
 .main-context {
-  padding-top: 35%
+  padding-top: 10%
 }
 .main-context p{
   display: block;
