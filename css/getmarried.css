@@ -56,6 +56,8 @@ p {
     font-style: normal;
     font-size: 1em;
     width: 85%;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 a {

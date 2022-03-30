@@ -49,6 +49,7 @@ p {
     font-style: normal;
     font-size: 1em;
     line-height: 28px;
+    text-align: justify;
     /* width: 85%; */
 }
 
@@ -272,6 +273,7 @@ nav a:hover {
     height: 10%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .design {
     display: block;

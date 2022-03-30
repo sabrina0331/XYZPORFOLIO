@@ -58,6 +58,7 @@ p {
     font-style: normal;
     font-size: 1em;
     line-height: 1.6em;
+    text-align: justify;
     /* width: 85%; */
 }
 
@@ -257,6 +258,7 @@ nav a:hover {
     /* line-height: 1.6; */
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 .recycle-img {
     display: inline-block;

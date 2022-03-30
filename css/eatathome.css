@@ -50,6 +50,7 @@ p {
     font-style: normal;
     font-size: 1em;
     line-height: 28px;
+    text-align: justify;
     /* width: 85%; */
 }
 
